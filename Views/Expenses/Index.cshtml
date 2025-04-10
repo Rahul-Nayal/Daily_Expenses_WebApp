@@ -1,0 +1,28 @@
+@model IEnumerable<WebApplication1.Models.Expense>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container m-5">
+    <h1 class="text-primary">My Expenses</h1>
+    <table class="table  table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+            <tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model){
+                <tr>
+                    <td>@item.Description</td>
+                    <td>@item.Amount</td>
+                    <td>@item.Category</td>
+                    <td>@item.Date.ToString("yyyy-MM-dd")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
