@@ -112,6 +112,7 @@
 /Users/rahulnayal/Desktop/MVC Projects/WebApplication1/WebApplication1/obj/Debug/net9.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
 /Users/rahulnayal/Desktop/MVC Projects/WebApplication1/WebApplication1/obj/Debug/net9.0/WebApplication1.RazorAssemblyInfo.cache
 /Users/rahulnayal/Desktop/MVC Projects/WebApplication1/WebApplication1/obj/Debug/net9.0/WebApplication1.RazorAssemblyInfo.cs
+/Users/rahulnayal/Desktop/MVC Projects/WebApplication1/WebApplication1/obj/Debug/net9.0/WebApplication1.sourcelink.json
 /Users/rahulnayal/Desktop/MVC Projects/WebApplication1/WebApplication1/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/rahulnayal/Desktop/MVC Projects/WebApplication1/WebApplication1/obj/Debug/net9.0/scopedcss/bundle/WebApplication1.styles.css
 /Users/rahulnayal/Desktop/MVC Projects/WebApplication1/WebApplication1/obj/Debug/net9.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css

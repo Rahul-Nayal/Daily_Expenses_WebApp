@@ -23,6 +23,19 @@ namespace WebApplication1.Data.Services
             return expenses;
         }
 
-    
+        public async Task Update(Expense expense){
+                _context.Update(expense);
+                await _context.SaveChangesAsync();
+        }
+
+        public async Task Delete (Expense expense){
+            _context.Remove(expense);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<Expense> GetById(int Id){
+            return await _context.Expenses.FindAsync(Id);
+        }
+
     }
 }
